@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ajax Request", "Ajax Request", "{970A1267-9470-460C-BA41-ECCD355F438C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Download", "Download", "{97DDF0FE-3C26-433E-B3B9-12C2D400E1C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CShapeCallCppByCLI", "CShapeCallCppByCLI", "{DB16D647-4F99-4CF2-9934-DF96B6D1BA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task Manager", "Task Manager", "{ECEB80EA-E867-4E13-95BD-55CA9AC2FCF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UriParamsComposer", "UriParamsComposer", "{C8D3CC17-9207-4EC5-9F1A-2E3C1CE174A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewtonSoft.Json", "NewtonSoft.Json", "{63E785B6-2872-4FFD-B402-A725A9475BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetComputerIPAddress", "GetComputerIPAddress", "{2DA480C6-E794-4D4E-8343-4F1CE75C2730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetAvailablePort", "GetAvailablePort", "{F43528FA-FB33-4F00-9EBD-9BC341802DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxRequester", "AjaxRequester\AjaxRequester.csproj", "{381B37C5-E357-4E6A-A3F4-557180A2EAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Downloader", "Downloader\Downloader.csproj", "{B89EE333-20A8-474C-AA25-E9D55D6EAED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{381B37C5-E357-4E6A-A3F4-557180A2EAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B37C5-E357-4E6A-A3F4-557180A2EAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B37C5-E357-4E6A-A3F4-557180A2EAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B37C5-E357-4E6A-A3F4-557180A2EAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89EE333-20A8-474C-AA25-E9D55D6EAED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89EE333-20A8-474C-AA25-E9D55D6EAED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89EE333-20A8-474C-AA25-E9D55D6EAED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89EE333-20A8-474C-AA25-E9D55D6EAED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{381B37C5-E357-4E6A-A3F4-557180A2EAB2} = {970A1267-9470-460C-BA41-ECCD355F438C}
+		{B89EE333-20A8-474C-AA25-E9D55D6EAED9} = {97DDF0FE-3C26-433E-B3B9-12C2D400E1C4}
+	EndGlobalSection
+EndGlobal

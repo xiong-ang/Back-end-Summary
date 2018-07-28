@@ -12,18 +12,7 @@ namespace Downloader
         static void Main(string[] args)
         {
             DownloadHelper helper = new DownloadHelper();
-            /*
-            Thread t = new Thread(() =>
-            {
-                helper.Download("https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=81ea5e29067b020818c437b303b099b6/472309f7905298229de24f4fdbca7bcb0b46d46d.jpg", "C://testDownload");
-            });
-            t.IsBackground = false;
-            t.Start();*/
             helper.Download("https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=81ea5e29067b020818c437b303b099b6/472309f7905298229de24f4fdbca7bcb0b46d46d.jpg", "C://testDownload");
-            /*while(true)
-            {
-                Thread.Sleep(50);
-            }*/
         }
     }
 }

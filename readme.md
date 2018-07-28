@@ -28,14 +28,8 @@
 ## Newtonsoft.Json            
 > 实现JSon的序列化与反序列化接口                
 * Template      
-* Interface           
-```
-Interface IJson
-{
-    Object FromJson(string json);
-    string ToJson(Object obj);
-}
-```
+* BaseClass                      
+
 ## Get Computer IP Address         
 > 获取本机IP              
 * Dns         

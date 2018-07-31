@@ -41,15 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TaskManager\IAsyncTask.cs" />
+    <Compile Include="MyTask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaskManager\Status.cs" />
-    <Compile Include="TaskManager\TaskManager.cs" />
-    <Compile Include="TaskManager\TaskRecord.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager\TaskManager.csproj">
+      <Project>{cf20f08a-fbd9-4d05-8fa1-3c8be28af060}</Project>
+      <Name>TaskManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
